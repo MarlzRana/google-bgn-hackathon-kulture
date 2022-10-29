@@ -9,6 +9,7 @@ app.use(express.json());
 
 require("./routes/auth.js")(app);
 require("./routes/food.js")(app);
+require("./routes/event.js")(app);
 
 app.route("/").get((req, res) => {
   res.json({
