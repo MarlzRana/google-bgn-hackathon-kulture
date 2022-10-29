@@ -1,8 +1,14 @@
 const PORT = process.env.PORT || 3000;
 
 const express = require("express");
+require("dotenv").config();
 
 const app = express();
+
+app.use(express.json());
+
+require("./routes/auth.js")(app);
+require("./routes/food.js")(app);
 
 app.route("/").get((req, res) => {
   res.json({
