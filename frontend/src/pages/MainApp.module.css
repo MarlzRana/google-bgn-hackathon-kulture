@@ -1,0 +1,12 @@
+.main {
+  height: 100vh;
+}
+
+.uppernav {
+  height: 7vh;
+}
+
+.content {
+  height: 86vh;
+  display: flex;
+}

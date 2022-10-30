@@ -1,0 +1,25 @@
+.main {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  border-radius: 13px;
+  position: absolute;
+}
+
+.main video {
+  width: 343px;
+  height: 600px;
+  background: black;
+  border-radius: 13px;
+}
+
+.main .info {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+  position: absolute;
+  bottom: 0;
+  height: 130px;
+  width: 343px;
+  padding: 10px 20px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}

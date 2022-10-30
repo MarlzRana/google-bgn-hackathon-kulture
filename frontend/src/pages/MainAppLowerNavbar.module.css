@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  width: 100%;
+  height: 7vh;
+}
+
+.main > button {
+  flex: 1 1 0;
+  height: 100%;
+  background-color: var(--main-smoky-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+}
+
+.main > button > img {
+  height: 5vh;
+}
+
+.main > button:hover:nth-child(1) {
+  background-color: var(--main-green);
+}
+
+.main > button:hover:nth-child(2) {
+  background-color: var(--main-yellow);
+}
+
+.main > button:hover:nth-child(3) {
+  background-color: var(--main-pink);
+}
+
+.main > button:hover:nth-child(4) {
+  background-color: var(--main-dark-blue);
+}
+
+.main > button:hover:nth-child(5) {
+  background-color: var(--main-orange);
+}
