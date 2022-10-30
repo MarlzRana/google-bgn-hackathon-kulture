@@ -82,4 +82,22 @@ module.exports = (app) => {
     );
     return res.json(dbRes[0]);
   });
+
+  app.route("/food/like").post(async(req, res) => {
+    const accountId = req.body.accountId;
+    const foodPlaceId = req.body.foodPlaceId
+
+    const dbRes = await db.query(
+      "INSERT INTO liked_foods(account_id, food_place_id) Values (?,?)",
+      [
+        accountId,
+        foodPlaceId,
+      ]
+    );
+
+    console.log(dbRes[0][0]);
+
+    return res.json({success: true})
+
+  })
 };
