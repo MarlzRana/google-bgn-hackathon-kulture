@@ -1,0 +1,21 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget > img {
+  height: 30vh;
+  width: 30vw;
+  border-radius: 5px;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-smoky-white);
+}

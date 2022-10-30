@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  background-color: var(--main-smoky-white);
+  width: 30%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.title > img {
+  height: 100px;
+}
+
+.title > h2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.communitiesContainer {
+  background-color: var(--main-smoky-white);
+  padding: 5px 10px;
+  border-radius: 10px;
+  flex: 3 1 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 75%;
+}
+
+.communitiesContainer::-webkit-scrollbar {
+  display: none;
+}

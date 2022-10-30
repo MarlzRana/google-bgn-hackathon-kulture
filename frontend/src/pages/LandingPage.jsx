@@ -12,7 +12,7 @@ function LandingPage() {
         </div>
         <div className={styles.right}>
           <button onClick={() => navigate("/login")}>Login</button>
-          <button>Sign Up</button>
+          <button onClick={() => navigate("/signUp")}>Sign Up</button>
         </div>
       </nav>
       <div className={styles.content}>

@@ -13,7 +13,10 @@ function MainAppLowerNavbar({ subpageName }) {
     <nav className={styles.main}>
       <button
         style={{
-          backgroundColor: subpageName === "food" ? "var(--main-green)" : "",
+          backgroundColor:
+            subpageName === "food" || subpageName == "foodAdd"
+              ? "var(--main-green)"
+              : "",
         }}
         onClick={() => navigate("/mainApp/food")}
       >
@@ -47,8 +50,7 @@ function MainAppLowerNavbar({ subpageName }) {
       <button
         onClick={() => navigate("/mainApp/chat")}
         style={{
-          backgroundColor:
-            subpageName === "chat" ? "var(--main-dark-orange)" : "",
+          backgroundColor: subpageName === "chat" ? "var(--main-orange)" : "",
         }}
       >
         <img src={chat} alt="" />
