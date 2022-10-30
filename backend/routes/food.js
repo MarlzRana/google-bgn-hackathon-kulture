@@ -100,4 +100,31 @@ module.exports = (app) => {
     return res.json({success: true})
 
   })
+
+  app.route("/food/searchByName").post(async(req, res) => {
+    const name = req.body.name;
+    
+    const dbRes = await db.query(
+      "SELECT * FROM food_places WHERE name LIKE '%?%'",
+      [name],
+    );
+
+    console.log(dbRes[0]);
+
+    return res.json({success:true}, dbRes[0])
+  })
+
+  app.route("/food/searchByCulture").post(async(req, res) => {
+    const culture = req.body.culture;
+
+    const dbRes = await db.query(
+      "SELECT * FROM food_places WHERE culture LIKE '%?%'"
+      [culture],
+    );
+
+    console.log(dbRes[0]);
+    
+    return res.json({success: true}, dbRes[0])
+  });
+
 };
