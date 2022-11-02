@@ -1,7 +1,7 @@
 # Kulture - Google BGN Hackathon - The social media built on culture
 
 ## Overview
-- This project was completed as part of the Google BCN Hackathon at Google's UK headquarters
+- This project was completed as part of the Google BGN Hackathon at Google's UK headquarters
 - 🥇 for the people's choice awards
 - 🥈 for the judge's vote hence overall hackathon
 
