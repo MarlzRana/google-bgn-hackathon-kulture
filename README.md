@@ -3,7 +3,7 @@
 ## Overview
 - This project was completed as part of the Google BCN Hackathon at Google's UK headquarters
 - 🥇 for the people's choice awards
-- 🥈for the judge's vote hence overall hackathon
+- 🥈 for the judge's vote hence overall hackathon
 
 ## Mission
 - Unifying society by embracing the differences in culture
