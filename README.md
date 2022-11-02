@@ -10,9 +10,12 @@
 
 ## Project Preview
 <img src="https://media1.giphy.com/media/HWMAmzYlDrjMlEoLiR/giphy.gif?cid=790b7611ec8e8b8ea87de3f2266a9405b6a78e2af22527b3&rid=giphy.gif&ct=g"></img>
+<img src="https://media0.giphy.com/media/GdFPv0TT4952JKB6zl/giphy.gif?cid=790b761116c270dcc86471f7920d5739989254052b7c2c3b&rid=giphy.gif&ct=g"></img>
+<img src="https://media4.giphy.com/media/bve5FNVecQmlktHe4q/giphy.gif?cid=790b7611523a93e8665d07e9349fdfd392f69da9cd300e29&rid=giphy.gif&ct=g"></img>
+<img src="https://media3.giphy.com/media/MKhI4u4zRZvnnRdHI7/giphy.gif?cid=790b7611516480a35c4b5b309da1103f1a9267ec8099741c&rid=giphy.gif&ct=g"></img>
 
 ## Contributers
-- <a href="">Dineth Marlin Ranasinghe</a>
-- <a href="">Agape Lutonadio</a>
+- <a href="https://github.com/MarlzRana">Dineth Marlin Ranasinghe</a>
+- <a href="https://github.com/Agape-ctrl">Agape Lutonadio</a>
 - <a href="">Michael Desta</a>
 - <a href="">Eli Louise</a>
