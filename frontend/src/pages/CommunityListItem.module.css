@@ -1,0 +1,36 @@
+.main {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  margin: 10px 0px;
+  height: 150px;
+}
+
+.leftSection > img {
+  object-fit: cover;
+  height: 150px;
+  width: 200px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.rightSection {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rightSectionLeft {
+  display: flex;
+  width: 100%;
+}
+
+.rightSectionLeft > button {
+  margin-left: auto;
+  background-color: var(--main-dark-blue);
+  border: none;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}

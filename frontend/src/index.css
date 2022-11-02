@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  ---main-red: #a44a3f;
+  --main-smoky-white: #efefef;
+  --main-green: #93d142;
+  --main-pink: #ed667d;
+  --main-dark-blue: #6290dc;
+  --main-light-blue: #88d6fa;
+  --main-yellow: #eec845;
+  --main-orange: #f1a262;
+  --main-cream: #f8e4bd;
+  --main-light-black: #818182;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

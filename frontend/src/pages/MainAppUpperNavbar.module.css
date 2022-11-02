@@ -1,0 +1,28 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.main {
+  height: 7vh;
+  display: flex;
+  background-color: var(--main-smoky-white);
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.leftSection,
+.middleSection,
+.rightSection {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.middleSection > img {
+  animation: rotation 15s infinite linear;
+}

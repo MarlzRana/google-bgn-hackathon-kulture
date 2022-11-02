@@ -1,0 +1,86 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.main {
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  padding-top: 1vh;
+  height: 10vh;
+  background-color: var(--main-smoky-white);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.left {
+  flex: 5 1 0;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.left > h1 {
+  font-size: 2em;
+  margin-left: 15px;
+}
+
+.right {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right > button {
+  width: 70px;
+  border: none;
+  background: var(--main-dark-blue);
+  color: white;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-radius: 5px;
+  height: 6vh;
+}
+
+.content {
+  display: flex;
+  height: 90vh;
+}
+
+.contentLeft {
+  flex: 1 1 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentLeft > img {
+  height: 400px;
+  animation: rotation 15s infinite linear;
+}
+
+.contentRight {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentRight > h2 {
+  font-size: 4em;
+}
+
+.contentRight > p {
+  font-size: 2em;
+}
