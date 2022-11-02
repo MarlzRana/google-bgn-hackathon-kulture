@@ -1,20 +1,16 @@
 import styles from "./CommunityListItem.module.css";
-import JapaneseFoodPlace from "./japanese-food-place.png";
-function CommunityListItem() {
+function CommunityListItem({ img, culture, name, location, description }) {
   return (
     <div className={styles.main}>
       <div className={styles.leftSection}>
-        <img src={JapaneseFoodPlace} alt="" />
+        <img src={img} alt="" />
       </div>
       <div className={styles.rightSection}>
-        <h2>African - Gospel Choir</h2>
-        <p>Location: King's Cross London</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-          necessitatibus ab similique modi, facilis blanditiis, temporibus eius
-          assumenda optio ea odio mollitia laudantium facere pariatur magnam
-          quam? In, assumenda nam. Lorem ipsum dolor sit amet consectetur
-        </p>
+        <h2>
+          {culture} - {name}
+        </h2>
+        <p>📍 {location}</p>
+        <p>{description}</p>
         <div className={styles.rightSectionLeft}>
           <button>Find out more</button>
         </div>

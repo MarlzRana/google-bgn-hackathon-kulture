@@ -12,10 +12,10 @@ function FeedCard({ videoUrl, onSwipe }) {
         <source src={videoUrl} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className={styles.info}>
+      {/* <div className={styles.info}>
         <h2>Mosob Restaurants</h2>
         <p>An upcoming and new restaurant</p>
-      </div>
+      </div> */}
     </TinderCard>
   );
 }

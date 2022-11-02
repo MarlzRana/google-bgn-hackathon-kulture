@@ -11,13 +11,13 @@ function LoginPage() {
 
   const login = async () => {
     try {
-      console.log(username);
-      console.log(process.env.REACT_APP_APIHOSTADDRESS + "/auth/login");
-      const res = await Axios.post(
-        process.env.REACT_APP_APIHOSTADDRESS + "/auth/login",
-        { username }
-      );
-      console.log(res);
+      // console.log(username);
+      // console.log(process.env.REACT_APP_APIHOSTADDRESS + "/auth/login");
+      // const res = await Axios.post(
+      //   process.env.REACT_APP_APIHOSTADDRESS + "/auth/login",
+      //   { username }
+      // );
+      // console.log(res);
       navigate("/mainApp/feed");
     } catch (e) {
       console.error(e);

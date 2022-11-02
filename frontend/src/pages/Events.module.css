@@ -1,0 +1,33 @@
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+}
+
+.foodListItemContainer {
+  background-color: var(--main-smoky-white);
+  padding: 5px 10px;
+  border-radius: 10px;
+  flex: 3 1 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.foodListItemContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.addFoodSpot {
+  position: absolute;
+  /* left: 1230px; */
+  left: 20px;
+  top: 630px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: var(--main-pink);
+  border-radius: 10px;
+  font-size: 1.5em;
+}

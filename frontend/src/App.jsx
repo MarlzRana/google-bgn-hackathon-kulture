@@ -24,6 +24,7 @@ function App() {
           <Route path="/mainApp/:subPage" element={<MainApp />}></Route>
         </Routes>
       </BrowserRouter>
+      {/* <MyGlobe /> */}
     </globalStateContext.Provider>
   );
 }
