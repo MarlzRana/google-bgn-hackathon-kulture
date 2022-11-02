@@ -1,11 +1,26 @@
+require("dotenv").config();
 const PORT = process.env.PORT || 3000;
 
 const express = require("express");
-require("dotenv").config();
+const cors = require("cors");
 
 const app = express();
 
 app.use(express.json());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "http://localhost:3002",
+      "http://localhost:3003",
+      "http://localhost:3004",
+      "http://localhost:3005",
+    ],
+    methods: ["GET", "POST"],
+    credentials: true,
+  })
+);
 
 require("./routes/auth.js")(app);
 require("./routes/food.js")(app);
@@ -18,6 +33,6 @@ app.route("/").get((req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
