@@ -37,6 +37,7 @@ module.exports = (app) => {
 
   app.route("/auth/login").post(async (req, res) => {
     const username = req.body.username;
+    console.log(username);
     const queryResult = await db.query(
       "SELECT account_id FROM accounts WHERE username=?",
       username
