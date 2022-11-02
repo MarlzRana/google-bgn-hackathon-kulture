@@ -1,4 +1,4 @@
-# Kulture - Google BCN Hackathon - The social media built on culture
+# Kulture - Google BGN Hackathon - The social media built on culture
 
 ## Overview
 - This project was completed as part of the Google BCN Hackathon at Google's UK headquarters
