@@ -18,4 +18,4 @@
 - <a href="https://github.com/MarlzRana">Dineth Marlin Ranasinghe</a>
 - <a href="https://github.com/Agape-ctrl">Agape Lutonadio</a>
 - <a href="">Michael Desta</a>
-- <a href="">Eli Louise</a>
+- <a href="https://github.com/elilouise">Eli Louise</a>
