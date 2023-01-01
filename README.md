@@ -19,5 +19,5 @@
 ## Contributers
 - <a href="https://github.com/MarlzRana">Dineth Marlin Ranasinghe</a>
 - <a href="https://github.com/Agape-ctrl">Agape Lutonadio</a>
-- Michael Desta
+- <a href="https://github.com/michaeldesta">Michael Desta</a>
 - <a href="https://github.com/elilouise">Eli Louise</a>
